@@ -19,6 +19,7 @@ artifacts:
 deploy:
 - provider: NuGet
   server: https://nuget.pkg.github.com/MonticolaExplorator/index.json
+  symbol_server: https://nuget.pkg.github.com/MonticolaExplorator/index.json
   api_key:
     secure: 87VXONffNiU8ErfeaSaETZLTOfF7GKHqv/CD0tNpYc52+kZlBP2GgsQhpOjv8Reo
   on:
